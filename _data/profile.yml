@@ -1,0 +1,15 @@
+- caption: GitHub Repo
+  href: https://github.com/RoyceRichmond
+  icon: entypo/github.svg
+
+- caption: Twitter
+  href: https://twitter.com/Royce_RichmondR/
+  icon: entypo/twitter.svg
+
+- caption: Linkedin
+  href: https://www.linkedin.com/in/roycerr/
+  icon: entypo/linkedin-with-circle.svg
+
+- caption: Email
+  href: "mailto:miles-militis@hotmail.com"
+  icon: entypo/email.svg
