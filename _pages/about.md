@@ -21,5 +21,30 @@ That that you know me a little bit i can tell you what are my hobbies.
 - Reading(i love reading on my kindle tbh).
 - Playing electric guitar.
 - Programming (python)
+<<<<<<< Updated upstream
 - Learning (I enroll on online courses)
 - Youtube (of course, its my main source of entertainment)
+=======
+- Learning (I enroll on online courses, a lot)
+- Youtube (of course, its my main source of entertainment)
+
+And this is a more sophisticated example, using the JS to include a carousel of images:
+
+<div id="carouselExampleControls" class="carousel slide mb-4" data-ride="carousel">
+    <div class="carousel-inner">
+        {% for img in page.images %}
+            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                <img src="{{ img }}" class="d-block w-100" alt="">
+            </div>
+        {% endfor %}
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+>>>>>>> Stashed changes
