@@ -21,10 +21,6 @@ That that you know me a little bit i can tell you what are my hobbies.
 - Reading(i love reading on my kindle tbh).
 - Playing electric guitar.
 - Programming (python)
-<<<<<<< Updated upstream
-- Learning (I enroll on online courses)
-- Youtube (of course, its my main source of entertainment)
-=======
 - Learning (I enroll on online courses, a lot)
 - Youtube (of course, its my main source of entertainment)
 
@@ -47,4 +43,3 @@ And this is a more sophisticated example, using the JS to include a carousel of 
         <span class="sr-only">Next</span>
     </a>
 </div>
->>>>>>> Stashed changes
