@@ -1,0 +1,8 @@
+http://jekyllthemes.org/themes/Minimal-Resume/
+http://jekyllthemes.org/themes/friday-theme/
+http://jekyllthemes.org/themes/LatexJekyll/
+http://jekyllthemes.org/themes/jekyll-theme-chirpy/
+
+
+http://jekyllthemes.org/themes/dev-potfolio-blog/
+http://jekyllthemes.org/themes/future-imperfect/

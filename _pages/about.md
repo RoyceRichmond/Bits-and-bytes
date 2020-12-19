@@ -11,20 +11,20 @@ images:
 
 ## Who am i ?
 
-My name is Royce Richmond pleased to meet you, I studied Bachelor of Engineering in Mechatronics in the ["Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas"](https://www.upiita.ipn.mx/).
+My name is Royce Richmond pleased to meet you, I studied B.E in Mechatronics in the ["Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas"](https://www.upiita.ipn.mx/).
 I had the opportunity to serve as chair of the technical chapter RAS (Robotics and Automation Society) of the IEEE UPIITA student branch
 
 Currently I'm pursuing the Master of Science in Computer Engineering in the "Centro de Investigación en Computación" CIC - IPN.
 
 ## Hobbies
-That that you know me a little bit i can tell you what are my hobbies.
+Let me tell you about my hobbies.
 - Reading(i love reading on my kindle tbh).
 - Playing electric guitar.
 - Programming (python)
 - Learning (I enroll on online courses, a lot)
 - Youtube (of course, its my main source of entertainment)
 
-Last but not least, here are some of the pictures from places or events i've been
+Last but not least, here are some of the pictures from places or events i've been, personally i love to take pictures to every place i go, so i have a souvenir that may last forever.
 
 <div id="carouselExampleControls" class="carousel slide mb-4" data-ride="carousel">
     <div class="carousel-inner">
