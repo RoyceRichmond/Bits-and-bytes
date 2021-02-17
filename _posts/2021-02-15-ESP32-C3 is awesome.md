@@ -1,48 +1,57 @@
 ---
-title:  New year's post and recap
+title:  ESP32-C3 is here, what should I do ?
 tags:
-  - New year's
-  - Recap
+  - ESP32
+  - ESP-IDF
+  - Wifi
 ---
 Hey, nice to see you again.
 
-Well this is a new year's eve post, expect a to see a lot of text (maybe not to much, but you had been forewarned)
+About three months ago Espressif leaked the specs of a new IC, the esp32-c3. We're talking about the same company that is responsible for the ESP8266 (the best thing that could have ever happened to the IoT scene) and has single-handed sparked the new iot wave.
 <p class="aligncenter">
-    <img src="{{site.baseurl}}/assets/cch.jpg" width="200" height="200" alt="Aceppted" />
+    <img src="{{site.baseurl}}/assets/esp.jpg" width="300" height="300"/>
 </p>
-<!--more-->
-Well, 2019 has been one of the most weirdest years of my life, by far.
+So a couple of weeks ago [@John Lee](https://twitter.com/espressifsystem) post a this tweet
+<p class="aligncenter">
+    <img src="{{site.baseurl}}/assets/esp1.jpg" />
+</p>
+I mean, dev boards (obviously engineering samples or pre-production ones) with the new chip, how could I say no?
+So I send him an email and got a response some days later. Fast forward to today and I have in my dry hands (a side effect of hand sanitiser and lots of soap) the esp32-c3, before we begin with all the fun and stuff. This is an engineering sample, therefore, it lacks some of the final features as described by the letter sent to me.
+<p class="aligncenter">
+    <img src="{{site.baseurl}}/assets/esp2.jpg" />
+</p>
 
-If at the beggining of 2019 someone had asked me about my predicction for the future, pretty much every prediction would be wrong, almost.
+***ESP-IDF***
 
-the beggining of the year january and february were ok, some news about china and a novel virus were spreading, in retrospective i should have taken a little more attetion to it, but i was to busy working on many things.
+So if you wanna program this IC you're in for a ride (I did and stumble against the wall for a couple of hours) but don't worry here you will find the easy way.
+First of all, you need to install ESP-IDF this is the framework that will allow you to compile for the new RISCv processor, but it works only with the latest version (4.3). You're going to download the prerequisites you can find it [here](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html#get-started-get-prerequisites).
 
-***the thesis***
+Download for your OS and next you'll find a window that looks very similar to the following one (I'm doing it on windows but it should be the same for any OS)
+<p class="aligncenter">
+    <img src="{{site.baseurl}}/assets/esp3.jpg" />
+</p>
+Click accept and then next, and also next on the following window. Then a window will ask you if you wanna install GIT or use one that you already have (git is in charge of downloading the info from the repositories), the next window will ask you if you wanna download ESP-IDF, and next which version, you should select the master branch
+<p class="aligncenter">
+    <img src="{{site.baseurl}}/assets/esp4.jpg" />
+</p>
+the master branch is the only one that has the definitions to use de c3 chip, the rest of the instructions are pretty straight forward, just leave it as is and click next when prompted.
 
-I studied my Bachelor of Engineering in Mechatronics in the "UPIITA"  and I really love my school (former by the time i'm writing this) is a great schoool, with nice classrooms and the best professors I've ever seen, not only they know a lot about many things (btw, i think that 80% of all the professors have a Phd), they're really humble and affable.
+In the end, you should see a new icon on your desktop or startup menu named ESP-IDF, when you click on it, a new command window opens and it adds temporarily the tools path and leaves you a nice message
 
-One of the options to graduate from UPIITA (at least the prefer one) is a thesis (senior thesis for the US and probably the rest of the world), so i got the first 6 monts of 2020 to finish my thesis, write everything, do a presentation, and finally my dissertation. My thesis title was "Octacopter for pothole detection", the project consists of two parts:
-1. ***Octacopter***: the octacopter had a Jetson nano, two raspberry pi v2 cameras, a gps module,an 10DOF module I designed and a flight controller for the octacopter of course, the jetson nano would read one camera, run a mobilenet neural network for object detection (vehicles, pedestrians, etc), read the imu sensor and decide wheter it should push the throttle a little bit to get higher or just keep moving forward and use the second camera to take pictures of the pavement and store it (along side with the gps coordinates).
+<p class="aligncenter">
+    <img src="{{site.baseurl}}/assets/esp5.jpg" />
+</p>
 
-2. ***Convolutional Neural Network***: the neural network would take tha images taken from the pavement and predict if a pothole was present, keep the image that had one and store it in a new directory (with the gps location)
+now you can compile and upload the projects, use this window always.
 
-this was a lot of work, i had to process the images manually (i also create my own dataset of potholes), because the areas are not regular and vary from image to image, that alone took me a lot of time, when i finished the programming of the CNN took me a lot, i had ever in my life used keras or tensorflow (i had only seen basic NN and done some basic scripts on matlab, yup, matlab is not the best for NN).
-the electronics part was actually easy, it took me like 2 weeks to have it from design to final product, and worked on the first try (yai!).
+***VSCODE extension***
 
-tldr?
+Is there a Vscode extension, right?, yes, Does it work? absolutely.
 
-okay :C, longs story short I finished on time, but the writing took the worst part and it became aparent on my dissertation, fortunately i passed it (althoug i still have to do corrections to the report).
+But here is the kicker, it only works with the stable version of the ESP-IDF (4.2 and below) so if you try to use the master branch it will fail on installation, if you try to replace the files, it won't recognize the configuration and prompt you to start over (I did this, and is really frustrating to see it failing over an over).
 
+Please don't use the extension if you wanna use the C3 chipset, otherwise is an excellent tool that simplifies the process of coding, compiling, flashing and monitoring (I tried it with a normal esp32 and it's wonderful, feels like an Arduino uploading process but with so much more power), kudos to all the Espressif team for that extension, love it.
 
-***Cansat competition***
+On the next post i'll walk you throug the programming of the esp and some examples anc configuration.
 
-the cansat competition 2020 was interesting, this was the second time that i participated and the mission was out of the ordinary because the cansat had to transform into a delta wing plane, if the fact of launching something with all the electronics and mechanical systems is not enough, then it has to morph into something else.
-
-We had a ton of things to design and integrate, I was in the sensor subsystem design, I had to integrate more sensors in a smaller package, take are of the energy distribution system, manufacture and test it.
-
-If the latter sounds complicated, well that's 'cause it was, but I really enjoy working with this kind of projects and never grow tired of it and all the hard work paid off 'cause we attained the fifth place in the cansat competition, over a 100 teams enter in the first phase and over 40 teams were in the second phase.
-For me this means a lot, it means that we have the capabilities to create new designs and tackle challenges, that maybe we don't have all the funding we would like to, but we got the work done and that is the point, the results 
-
-***I'll be doing a Masters!!***
-
-So yup, I got accepted into the master's program I wanted and I couldn't be happier, I think this is a huge opportunity to expand my horizons and stand upon the shoulders of giants, see what's next.
+bye.
