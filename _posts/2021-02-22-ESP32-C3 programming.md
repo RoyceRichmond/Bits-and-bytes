@@ -8,7 +8,9 @@ tags:
 Hey, nice to see you again.
 
 Last time we installed the latest version of the ESP-IDF, now we will program the board with to programs (just to get started, in the future I'll upload more as I progress). We'll go the easy way and use the included software and made some minor tweaks.
+
 ***Blink***
+
 Ahh nothing says hello world! as a blinking LED, maybe the "Hello world!" itself. First go to the esp folder, then the examples folder and then the get-started folder
 <p class="aligncenter">
     <img src="{{site.baseurl}}/assets/p0-0222.jpg"/>
@@ -47,10 +49,22 @@ And just like that, you have a blinking LED.
     <img src="{{site.baseurl}}/assets/gif.gif" width="300" height="300"/>
 </p>
 
-
 ***RGB led***
 
+Now that you've some experience with the basics you can actually make the included RGB led flash (it's kinda like a ws2812, not sure if that's the correct part) very easily.
 
+Again will do a copy but now from this folder examples\peripherals\rmt\led_strip
+
+if you haven't closed the ESP command window just change the path with cd and change the pin output, the addressable led is wired on the pin 8 and like before upload the code with 
+
+```
+idf.py flash -p COM9
+```
+Just like that you can have the on board LED flashing.
 <p class="aligncenter">
     <img src="{{site.baseurl}}/assets/gif2.gif" width="400" height="300"/>
 </p>
+
+Running the examples is really easy, but this are just examples, next time i'll add some colour to it.
+
+bai
