@@ -55,8 +55,11 @@ Now that you've some experience with the basics you can actually make the includ
 
 Again will do a copy but now from this folder examples\peripherals\rmt\led_strip
 
-if you haven't closed the ESP command window just change the path with cd and change the pin output, the addressable led is wired on the pin 8 and like before upload the code with 
-
+if you haven't closed the ESP command window just change the path with cd and the configuration, the addressable led is wired on the pin 8, and change the number of leds to 1, the window should look like this.
+<p class="aligncenter">
+    <img src="{{site.baseurl}}/assets/p5-0222.jpg"/>
+</p>
+finish, save and like before upload the code with 
 ```
 idf.py flash -p COM9
 ```
