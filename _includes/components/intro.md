@@ -1,0 +1,1 @@
+This is a personal blog, where I’ll post eventually, I’ve been developing mechanical, electrical among other things, and never shared it (not intentionally, I would have loved to, but I didn’t have the time nor the tools to do so at the time, now I have and I’ll make it right).
