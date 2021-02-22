@@ -23,7 +23,7 @@ Let me tell you about my hobbies.
 - Programming (python)
 - Learning (I enroll on online courses, a lot)
 - Youtube (of course, its my main source of entertainment)
-- Playin videogames(I love Hollow knight, awesome game wit a lot of content)
+- Playing videogames(I love Hollow knight (awesome game wit a lot of content) and Rainbow six siege, my main is Valkyrie and Iana, i like to play like a strat operator rather than with guns blazing)
 
 Last but not least, here are some of the pictures from places or events i've been, personally i love to take pictures to every place i go, so i have a souvenir that may last forever.
 
