@@ -14,16 +14,16 @@ images:
 My name is Royce Richmond pleased to meet you, I studied B.E in Mechatronics in the ["Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas"](https://www.upiita.ipn.mx/).
 I had the opportunity to serve as chair of the technical chapter RAS (Robotics and Automation Society) of the IEEE UPIITA student branch
 
-Currently I'm pursuing the Master of Science in Computer Engineering in the "Centro de Investigación en Computación" CIC - IPN.
+Currently I'm pursuing the Master of Science in Computer Engineering in the "Centro de Investigación en Computación" CIC - IPN, my Thesis topic is the STDP learning rule on neuromorphic circuits (in a nutshell I'll design and test some circuits to make an analog neural network learn, and see if it behaves like the simulation or not and why so)
 
 ## Hobbies
 Let me tell you about my hobbies.
-- Reading(i love reading on my kindle tbh).
+- Reading(I love reading from Thrillers to classics).
 - Playing electric guitar.
-- Programming (python)
+- Programming (python, C and some embedded applications)
 - Learning (I enroll on online courses, a lot)
 - Youtube (of course, its my main source of entertainment)
-- Playing videogames(I love Hollow knight (awesome game wit a lot of content) and Rainbow six siege, my main is Valkyrie and Iana, i like to play like a strat operator rather than with guns blazing)
+- Playing videogames(I love Hollow knight (awesome game wit a lot of content), Rainbow six siege and lately Warzone and Rainbow Six Extraction)
 
 Last but not least, here are some of the pictures from places or events i've been, personally i love to take pictures to every place i go, so i have a souvenir that may last forever.
 
